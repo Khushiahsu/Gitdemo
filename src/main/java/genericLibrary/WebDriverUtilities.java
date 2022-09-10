@@ -13,11 +13,6 @@ public void dropdown(WebElement ele,String Text) {
 	Select s= new Select(ele);
 	s.selectByVisibleText(Text);
 	
-	
-	
-	//Select s = new Select(ele);//
-	//s.selectByVisibleText(Text);
-	
 }
 public void mouseHover(WebDriver driver,WebElement ele )
 {

@@ -1,10 +1,11 @@
 package script;
 
 import org.testng.annotations.Test;
+
 import java.io.IOException;
 
 import org.openqa.selenium.Point;
-import org.testng.annotations.Test;
+
 
 import genericLibrary.BaseClass;
 import pomPages.SkillraryDemoLogin;
