@@ -1,6 +1,7 @@
 package script;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import genericLibrary.BaseClass;
 import pomPages.AddToCart;

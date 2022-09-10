@@ -1,5 +1,6 @@
 package script;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.openqa.selenium.Point;
@@ -20,7 +21,7 @@ public void tc2() throws IOException
 	
 	utilities.switchingTabs(driver);
 	SkillraryDemoLogin d= new SkillraryDemoLogin(driver);
-	utilities.dropdown(d.getCourseDropDown(),pdata.getPropertydata("coursename"));//something wrong
+	utilities.dropdown(d.getCourseDropDown(),pdata.getPropertydata("nameofthecourse"));//something wrong
 	//dropdown(d.getCoursetab(),pdata.getPropertydata("coursename"));
 	
 	

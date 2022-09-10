@@ -30,7 +30,11 @@ public void skillrarydemoapplication()
 {
 	SkillraryDemoApp.click();
 }
-public WebElement getSearchtab() {
-	return searchtab;
+public void searchtxtbox(String name) {
+	searchtab.sendKeys(name);
+}
+public void gobutton() {
+	submit.click();
+	
 }
 }
